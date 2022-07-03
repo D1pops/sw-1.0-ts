@@ -5,10 +5,10 @@ import s from './Navbar.module.css'
 export const Navbar = () => {
     return <nav className={s.nav}>
         <div className={s.item}>
-            <a>Pofile</a>
+            <a href='/profile'>Pofile</a>
         </div>
         <div className={'${s.item} ${s.active}'}>
-            <a>Messages</a>
+            <a href='/dialogs'>Messages</a>
         </div>
         <div className={s.item}>
             <a>News</a>

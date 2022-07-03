@@ -7,10 +7,12 @@ export const MyPosts = () => {
     return <div>
         <div>My posts</div>
         <div>
-            <input/>
+            <textarea></textarea>
             <button>Add post</button>
         </div>
-        <Post/>
-
+        <div className={s.posts}>
+            <Post message='Hi, how are you?' likesCount={10}/>
+            <Post message='it is my first post' likesCount={20}/>
+        </div>
     </div>
 }
