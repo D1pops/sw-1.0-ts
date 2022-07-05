@@ -7,7 +7,7 @@ type MessageType = {
 }
 
 export const Post = (props: MessageType) => {
-    return <div className={s.item}>
+    return <div className={s.dialog}>
         <img src='https://pngimg.com/uploads/mr_bean/mr_bean_PNG20.png'/>
         {props.message}
         <div>
